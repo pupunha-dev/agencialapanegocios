@@ -1,9 +1,8 @@
-import Image from "next/image";
-import logo from "./../../public/Agência Lapa Negócios - 1.svg"
+
 export default function Home() {
   return (
-    <div>
-      <Image src={logo} alt="logo" width={200}></Image>
-    </div>
+    <main className="flex flex-col flex-1 w-10/12">
+      <h1>main</h1>
+    </main>
   );
 }
