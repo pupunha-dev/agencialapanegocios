@@ -11,28 +11,29 @@ export const Header = () => {
         <Logotipo logo={logoImg} alt="Agência Lapa Negócios - Logotipo" />
       </div>
 
-      <p className="text-3xl font-bold">Preciso muito de...</p>
+      <p className="text-2xl font-base">Precisando de soluções digitais para seu negócio?</p>
+      <p className="text-2xl font-base">Somos profissionais no desenvolvimento de</p>
 
       <div className="flex w-3/5 justify-center gap-10 p-4">
         <Menu className="flex flex-col gap-2">
-          <ItemMenu url="#sites" link="Um Site para meu negócio" icone={<Pointer color="#d2502d" />}
+          <ItemMenu url="#sites" link="Sites Institucionais" icone={<Pointer color="#d2502d" />}
             className="bg-gradient-to-r from-orange-700 to-orange-600 text-transparent bg-clip-text
             text-2xl font-bold" />
-          <ItemMenu url="/" link="Uma Loja Virtual" icone={<MousePointerClick color="#d2502d" />}
+          <ItemMenu url="/" link="Lojas Virtuais" icone={<MousePointerClick color="#d2502d" />}
             className="bg-gradient-to-r from-orange-700 to-orange-600 text-transparent bg-clip-text
            text-2xl font-bold" />
-          <ItemMenu url="/" link="Uma Landing Page" icone={<MousePointerClick color="#d2502d" />}
+          <ItemMenu url="/" link="Landing Pages" icone={<MousePointerClick color="#d2502d" />}
             className="bg-gradient-to-r from-orange-700 to-orange-600 text-transparent bg-clip-text
             text-2xl font-bold" />
         </Menu>
         <Menu className="flex flex-col gap-2">
-          <ItemMenu url="#sites" link="Aplicativo Mobile" icone={<MousePointerClick color="#d2502d" />}
+          <ItemMenu url="#sites" link="Aplicativos Mobile" icone={<MousePointerClick color="#d2502d" />}
             className="bg-gradient-to-r from-orange-700 to-orange-600 text-transparent bg-clip-text
             text-2xl font-bold" />
-          <ItemMenu url="#sites" link="Anunciar no Google" icone={<MousePointerClick color="#d2502d" />}
+          <ItemMenu url="#sites" link="Anúncios no Google" icone={<MousePointerClick color="#d2502d" />}
             className="bg-gradient-to-r from-orange-700 to-orange-600 text-transparent bg-clip-text
             text-2xl font-bold" />
-          <ItemMenu url="#sites" link="Fale Conosco" icone={<MousePointerClick color="#d2502d" />}
+          <ItemMenu url="#sites" link="Nosso Atendimento" icone={<MousePointerClick color="#d2502d" />}
             className="bg-gradient-to-r from-orange-700 to-orange-600 text-transparent bg-clip-text
             text-2xl font-bold" />
         </Menu>
